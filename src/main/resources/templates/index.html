@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns ="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://thymeleaf.org">
+    <head th:replace="~{layout/plantilla :: head}">
+
+
+    </head>
+    <body style="background: #6699ff">
+        <header class="container-fluid bg-primary d-flex justify-content-center">
+            <p class="mb-0 p-2 fs-4 text-light ">
+                MarketPlace 
+            </p>
+        </header>
+        <section>
+            <nav class="navbar navbar-expand-lg bg-body-secondary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section >
+
+            <div class="container mt-5 mb-5 pt-5">
+                <div class="row">
+                    <div class="col-12 col-sm-8 col-md-6 m-auto">
+                        <div class="card border-0 shadow">   
+                            <div class="card-body">
+                                <i class=" fa-solid fa-user " ></i>
+                                <form action="">
+                                    <input type="text" name="" id="usuarioInput" class="form-control my-4 py-2" placeholder="Usuario"/>
+                                    <input type="text" name="" id="passwordInput" class="form-control my-4 py-2" placeholder="Contraseña"/>
+                                    <div class="text-center mt-3">
+                                        <button class="btn btn-primary mb-2">Login</button>
+                                        <a href="registo.html" class="nav-link text-secondary">No tienes cuenta? Registrarme</a>
+                                    </div>
+                                </form> 
+                            </div>
+
+                        </div>   
+                    </div>                   
+                </div>  
+            </div>
+
+        </section>
+        <footer  class="text-center bg-info p-3">&COPY; Todos los derechos reservados 2024</footer>    
+    </body>
+
+</html>
